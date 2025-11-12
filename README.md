@@ -5,7 +5,7 @@ This project is a **Retrieval-Augmented Generation (RAG)** application that allo
 The backend is built with **LangChain**, using **HuggingFace embeddings** to understand the text, **ChromaDB** as a vector database to store the knowledge, and **Google's Gemini (Gemini 2.5 Flash)** model to generate answers.
 
 ---
-
+![GUI](Task_No_1/Screenshot%202025-11-12%20170124.png)
 
 ## 🚀 How It Works
 
