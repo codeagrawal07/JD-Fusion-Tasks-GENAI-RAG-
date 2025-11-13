@@ -10,7 +10,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from dotenv import load_dotenv
 
 load_dotenv()
-CHROMA_DB_DIRECTORY = "C:\\Users\\91766\\OneDrive - Graphic Era University\\Desktop\\JD Fission\\chroma_db2"
+CHROMA_DB_DIRECTORY = ".\\Task_No_2 \\chroma_db2"
 
 # Check for API key
 if not os.getenv("GOOGLE_API_KEY"):
@@ -106,3 +106,4 @@ if question:
         # Show query time [cite: 8]
         st.info(f"Query response time: {query_time:.2f} seconds")
         
+
