@@ -18,7 +18,7 @@ file_paths =[
     "./Data/2506.02153v2.pdf",
     "./Data/reasoning_models_paper.pdf"
 ]
-CHROMA_DB_DIRECTORY = "C:\\Users\\91766\\OneDrive - Graphic Era University\\Desktop\\JD Fission\\chroma_db2"
+CHROMA_DB_DIRECTORY = ".\chroma_db2"
 
 def main():
 
@@ -59,4 +59,5 @@ if __name__ == "__main__":
        
         print("Warning: GOOGLE_API_KEY environment variable not set, but we are using HuggingFace.")
         
+
     main()
